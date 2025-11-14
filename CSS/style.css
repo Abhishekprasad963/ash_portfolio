@@ -1,0 +1,57 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&display=swap');
+
+body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: #333;
+}
+
+.heroes{
+  
+    background-image: url("./ash-ketchum-pikachu-1920x1080-17918.jpg"); /* path to your image */
+    
+  background-size: cover;       /* Makes image cover the entire screen */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-position: center;  /* Centers the image */
+  background-attachment: fixed; /* Keeps image fixed during scroll (optional) */
+  margin: 0;                    /* Removes default body margin */
+  height: 100vh;                /* Ensures body takes full viewport height */
+  position: sticky;           /* Establishes a positioning context for children */
+}
+.hello{
+    position: absolute;
+    color: rgb(190, 136, 74);
+    font-size: 50px;
+    transform: translate(450px,-340px);
+    padding-top: 20%;
+    font-family:"pacifico",cursive;
+}
+.i{
+   
+  color: rgb(190, 136, 74);
+    font-size: 50px;
+    transform: translate(500px,-730px);
+    padding-top: 20%;
+    font-family:"pacifico",cursive;
+}
+.am{
+  
+color: rgb(190, 136, 74);
+    font-size: 50px;
+    transform: translate(530px,-1100px);
+    padding-top: 20%;
+    font-family:"pacifico",cursive;
+}
+.ash{
+   
+color: rgb(190, 136, 74);
+    font-size: 50px;
+    transform: translate(580px,-1470px);
+    padding-top: 20%;
+    font-family:"pacifico",cursive;
+}
